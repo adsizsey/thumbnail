@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise!</title>
+    <!-- Open Graph Metadata for the thumbnail preview -->
+    <meta property="og:title" content="You won a prize!">
+    <meta property="og:description" content="Click to claim your prize now!">
+    <meta property="og:image" content="https://example.com/preview-image.jpg">
+    <meta property="og:url" content="https://example.com/prank.html">
+</head>
+<body>
+    <script>
+        // Redirect the user to the real content after clicking
+        window.location.href = "https://example.com/gotcha";
+    </script>
+</body>
+</html>
